@@ -1,5 +1,5 @@
-#Teste de movimentação de arquivos via Python
+#Teste de movimentação de arquivos no Linux via Script no Python
 import shutil
 
-shutil.move('aaa.txt', '/home/hbisetto/Documentos/Cursos/Programacao-Nelio/Python/Codigos-fonte/Pasta-destino')
+shutil.move('aaa.txt', '/[caminho-do-arquivo]/Pasta-destino')
 print("Arquivo movido com sucesso.")
